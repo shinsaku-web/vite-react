@@ -7,5 +7,8 @@ export default defineConfig({
   server: {
     open: true,
   },
+  resolve: {
+    alias: [{ find: '@', replacement: '/src' }]
+  },
   plugins: [react()]
 })
