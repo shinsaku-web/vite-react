@@ -17,10 +17,10 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'react-hooks', "import", "unused-imports"],
   rules: {
-    'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+    'react-hooks/rules-of-hooks': 'error', 
     'react-hooks/exhaustive-deps': 'warn',
     'react/react-in-jsx-scope': 'off',
-    '@typescript-eslint/no-unused-vars': 'off', // or "no-unused-vars": "off",
+    '@typescript-eslint/no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
