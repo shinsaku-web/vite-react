@@ -32,4 +32,12 @@ module.exports = {
       },
     ],
   },
+  settings: {
+    // TypeScript の import を eslint-import-resolver-typescript で解決
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
+  },
 };
